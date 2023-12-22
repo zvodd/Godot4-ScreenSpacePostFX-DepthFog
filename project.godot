@@ -10,7 +10,8 @@ config_version=5
 
 [application]
 
-config/name="PostFXDepthFog"
+config/name="PostFX DepthFog"
+run/main_scene="res://post_fx_camera/example/post_fx_demo_scene.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 

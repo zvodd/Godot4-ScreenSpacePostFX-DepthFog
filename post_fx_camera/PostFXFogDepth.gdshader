@@ -10,7 +10,7 @@ uniform float fog_distance : hint_range(1, 200);
 
 // Old fasioned sine based noise function found at https://www.shadertoy.com/view/4djSRW
 float hashOld12(vec2 p){
-	return fract(sin(dot(p, vec2(12.9898, 78.233))) * 43758.5453 + (mod(TIME, 10) / noise_time_fac)) ;
+	return fract(sin(dot(p, vec2(12.9898, 78.233))) * 43758.5453 + (sin((TIME)) / noise_time_fac)) ;
 }
 
 // The order of the input colors seems to matter here. Black doesn't work as the second argument

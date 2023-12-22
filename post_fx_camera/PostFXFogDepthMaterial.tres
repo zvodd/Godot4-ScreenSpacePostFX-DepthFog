@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://dkbmw563qyove"]
+
+[ext_resource type="Shader" path="res://post_fx_camera/PostFXFogDepth.gdshader" id="1_q8h8v"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_q8h8v")
+shader_parameter/fog_color = Color(0.207843, 0.109804, 0.568627, 1)
+shader_parameter/noise_color = Color(0.243137, 0.305882, 0.827451, 1)
+shader_parameter/noise_time_fac = 0.885
+shader_parameter/fog_distance = 25.927

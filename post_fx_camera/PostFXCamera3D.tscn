@@ -1,6 +1,5 @@
-[gd_scene load_steps=6 format=3 uid="uid://t1mbm5iepcpu"]
+[gd_scene load_steps=5 format=3 uid="uid://t1mbm5iepcpu"]
 
-[ext_resource type="Environment" uid="uid://cwylxkwiog5hl" path="res://post_fx_camera/Environment_cam.tres" id="1_5hwqb"]
 [ext_resource type="Shader" path="res://post_fx_camera/blackout_screen.gdshader" id="2_t3y5u"]
 [ext_resource type="Script" path="res://post_fx_camera/FadeInTween.gd" id="3_6lnaw"]
 [ext_resource type="QuadMesh" uid="uid://crn47x6t7qnaa" path="res://post_fx_camera/ScreenCover_Quad.tres" id="4_yq2d1"]
@@ -10,8 +9,6 @@ shader = ExtResource("2_t3y5u")
 shader_parameter/black_amount = null
 
 [node name="PostFXCamera3D" type="Camera3D"]
-transform = Transform3D(0.883463, -0.207579, 0.420004, 1.58994e-08, 0.896486, 0.443071, -0.468501, -0.391437, 0.792013, 3.60662, 3.0316, 0.90907)
-environment = ExtResource("1_5hwqb")
 
 [node name="ScreenShader" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_b4htl")
